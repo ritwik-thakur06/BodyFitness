@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 80vw;
+    
+}
+#mynav{
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top: 0px;
+    /* uncomment below when we want the rightside nav to the leftside
+    display: flex;
+    align-items: center; */
+}
+#mynav::before{
+    content: "";
+    position: absolute;
+    background: white;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.navbar{
+    height: 65px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+}
+.topleft{
+    width: 50%;
+}
+.topright{
+    width: 50%;
+}
+.section1{
+    max-height: 100vh;
+    color: #711e15;
+}
+.section1 p{
+    font-family: 'Poppins', sans-serif;
+}
+.section1 h1{
+    font-size: 2rem;
+    color: #55160f;
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo{
+    font-size: 1.2rem;
+}
+.dumbellimg{
+    width: 280px;
+}
+.gymimg{
+    width: 466px;
+    margin-left: 10.5rem;
+}
+.section2{
+    padding: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+.section2 h1{
+    font-size: 2rem;
+    color: #55160f;
+}
+.section2 p{
+    padding: 0 6vw;
+    text-align: center;
+}
+.box{
+    margin: 12px 20px;
+    padding: 8px 0;
+    min-width: 20vw;
+    border: 2px solid rgb(164, 72, 35);
+    text-align: center;
+    border-radius: 6px;
+    
+}
+.box:hover{
+    margin: 12px 20px;
+    padding: 8px 0;
+    min-width: 20vw;
+    border: 2px solid rgb(164, 72, 35);
+    text-align: center;
+    /* color: white; */
+    border-radius: 6px;
+    background: rgb(227,74,56);
+    /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */
+    transition: all 0.25s ease-in-out 0s ;
+}
+.btn-box{
+    padding: 7px 12px;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227,74,56);
+    font-family: 'Poppins', sans-serif;
+}
+.btn-box:hover{
+    padding: 7px 12px;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(227,74,56);
+    font-weight: 600;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.btn2{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #711e15;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.btn2 a{
+    list-style: none;
+}
+.box h2{
+    font-size: 1.6rem;
+    padding: 14px 0;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 0px;
+}
+.box ul small{
+    font-weight: 500;
+    font-size: 1.01rem;
+}
+.highlighted{
+    font-size: 1.15rem;
+    font-weight: bolder;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3{
+    padding: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+.section3 h1{
+    color: #55160f;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 20vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+/* .section3 table tr{
+    border-bottom: 2px solid black;
+} */
+.section3 h1{
+    font-size: 2rem;
+}
+footer{
+    padding: 13px;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer .foot1{
+    float: left;
+}
+footer .foot1 div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .foot2{
+    float: right;
+}
+footer .foot2 .txt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .foot2 .myicons a{
+    text-decoration: none;
+    padding: 45px 15px;
+    color: #711e15;
+    font-size: 1.2em;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+    font-family: 'Poppins', sans-serif;
+}
